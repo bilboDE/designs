@@ -4024,3 +4024,45 @@ a:active .menu-button {
     flex-shrink: 0;
     min-width: 1130px;
 }
+
+/* FINAL PS4 OVERRIDE */
+.controller.ds4,
+.controller.ds4.white {
+    background: url("./files/base.svg") no-repeat center !important;
+    width: 806px !important;
+    height: 598px !important;
+}
+
+.ds4 .trigger,
+.ds4.white .trigger {
+    background: url("./files/triggers.svg") no-repeat !important;
+}
+
+.ds4 .bumper,
+.ds4.white .bumper {
+    background: url("./files/bumper.svg") no-repeat !important;
+}
+
+.ds4 .back,
+.ds4 .start,
+.ds4.white .back,
+.ds4.white .start {
+    background: url("./files/start.svg") no-repeat !important;
+}
+
+.ds4 .button,
+.ds4.white .button {
+    background: url("./files/face.svg") no-repeat !important;
+}
+
+.ds4 .stick,
+.ds4.white .stick {
+    background: url("./files/sticks.svg") no-repeat !important;
+    width: 94px !important;
+    height: 94px !important;
+}
+
+.ds4 .face,
+.ds4.white .face {
+    background: url("./files/dpad.svg") no-repeat !important;
+}
