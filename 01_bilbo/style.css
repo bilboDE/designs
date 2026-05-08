@@ -257,7 +257,7 @@
 
 .ds4 .stick {
     position: absolute;
-    background: url("./files/face.svg");
+    background: url("./files/sticks.svg");
     height: 94px;
     width: 94px;
 }
@@ -278,11 +278,6 @@
 .ds4 .stick.right {
     top: calc(100% - 105px);
     left: calc(100% - 105px);
-}
-
-/* GamepadViewer transform wrappers sometimes add inline movement. Keep it smooth. */
-.ds4 .stick:not(.pressed) {
-    filter: none;
 }
 
 /* Touchpad remains dark from base.svg; avoid extra click shadow */
