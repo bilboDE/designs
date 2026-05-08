@@ -257,10 +257,9 @@
 
 .ds4 .stick {
     position: absolute;
-    width: 94px;
+    background: url("./files/face.svg");
     height: 94px;
-    background: url("https://bilboDE.github.io/designs/01_bilbo/files/sticks.svg") no-repeat;
-    transition: transform .04s ease, background-position .04s ease;
+    width: 94px;
 }
 
 .ds4 .stick.left {
