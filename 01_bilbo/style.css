@@ -247,37 +247,51 @@
 .ds4 .dpad .button.pressed { transform: translateY(1px) scale(.96); }
 
 /* ANALOG STICKS + L3/R3 pressed states */
-.ds4 .sticks {
-    position: absolute;
-    width: 361px;
-    height: 105px;
-    top: 308px;
-    left: 228px;
-}
+/* =========================
+   FIX ANALOG STICKS
+========================= */
 
-.ds4 .stick {
-    position: absolute;
-    background: url("./files/face.svg");
-    height: 94px;
-    width: 94px;
-}
-
-.ds4 .stick.pressed.left {
-    background-position-x: -96px;
-}
-
-.ds4 .stick.pressed.right {
-    background-position-x: -192px;
-}
-
-.ds4 .stick.left {
-    top: 0;
-    left: 0;
-}
-
+.ds4 .sticks,
+.ds4 .stick,
+.ds4 .stick.left,
 .ds4 .stick.right {
-    top: calc(100% - 105px);
-    left: calc(100% - 105px);
+    overflow: visible;
+    z-index: 20;
+}
+
+.ds4 .stick::before,
+.ds4 .stick::after {
+    z-index: 25;
+}
+
+/* verhindert abgeschnittene Buttons */
+.ds4 .stick .button,
+.ds4 .stick button {
+    position: absolute;
+    z-index: 30;
+}
+
+
+/* =========================
+   SHARE + OPTIONS PRESS
+========================= */
+
+.ds4 .share,
+.ds4 .options {
+    cursor: pointer;
+    transition: all .08s ease;
+}
+
+.ds4 .share:active,
+.ds4 .options:active {
+    transform: translateY(3px);
+    filter: brightness(0.85);
+}
+
+/* echter "eingedrückt" Effekt */
+.ds4 .share:active::before,
+.ds4 .options:active::before {
+    transform: scale(.95);
 }
 
 /* Touchpad remains dark from base.svg; avoid extra click shadow */
