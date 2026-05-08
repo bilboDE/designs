@@ -247,27 +247,37 @@
 .ds4 .dpad .button.pressed { transform: translateY(1px) scale(.96); }
 
 /* ANALOG STICKS + L3/R3 pressed states */
+.ds4 .sticks {
+    position: absolute;
+    width: 361px;
+    height: 105px;
+    top: 308px;
+    left: 228px;
+}
+
 .ds4 .stick {
-  background-image: url("./sticks.svg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center;
+    position: absolute;
+    background: url("./files/face.svg");
+    height: 94px;
+    width: 94px;
 }
 
-.ds4 .stick.left,
-.stick.right {
-  width: 112px;
-  height: 112px;
-  border-radius: 50%;
-  overflow: hidden;
+.ds4 .stick.pressed.left {
+    background-position-x: -96px;
 }
 
-/* wichtig: keine Button-Sprites auf den Sticks */
-.ds4 .stick .button,
-.stick::before,
-.stick::after {
-  background-image: none !important;
-  box-shadow: none !important;
+.ds4 .stick.pressed.right {
+    background-position-x: -192px;
+}
+
+.ds4 .stick.left {
+    top: 0;
+    left: 0;
+}
+
+.ds4 .stick.right {
+    top: calc(100% - 105px);
+    left: calc(100% - 105px);
 }
 
 /* Touchpad remains dark from base.svg; avoid extra click shadow */
