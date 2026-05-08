@@ -1084,7 +1084,7 @@ strong {
 .ds4 .trigger {
     width: 99px;
     height: 100%;
-    background: url("./files/triggers.svg");
+    background: url(./files/triggers.svg);
     opacity: 0;
 }
 
