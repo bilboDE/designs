@@ -1067,7 +1067,7 @@ strong {
 }
 
 .ds4.disconnected {
-    background: url(ps4-assets/disconnected.svg);
+    background: url(https://bilbode.github.io/designs/01_bilbo/files/base.svg);
 }
 
 .ds4.disconnected div {
