@@ -249,10 +249,10 @@
 /* ANALOG STICKS + L3/R3 pressed states */
 .ds4 .sticks {
     position: absolute;
-    width: 286px;
-    height: 94px;
-    left: 260px;
-    top: 316px;
+    width: 361px;
+    height: 105px;
+    top: 308px;
+    left: 228px;
 }
 
 .ds4 .stick {
@@ -262,27 +262,22 @@
     width: 94px;
 }
 
+.ds4 .stick.pressed.left {
+    background-position-x: -96px;
+}
+
+.ds4 .stick.pressed.right {
+    background-position-x: -192px;
+}
+
 .ds4 .stick.left {
-    left: 0;
     top: 0;
-    background-position: 0 0;
+    left: 0;
 }
 
 .ds4 .stick.right {
-    left: 192px;
-    top: 0;
-    background-position: -192px 0;
-}
-
-/* In sticks.svg: middle sprite = L3 pressed, right sprite = R3 pressed/visible */
-.ds4 .stick.left.pressed {
-    background-position: -96px 0;
-    transform: scale(.96) translateY(1px);
-}
-
-.ds4 .stick.right.pressed {
-    background-position: -192px 0;
-    transform: scale(.96) translateY(1px);
+    top: calc(100% - 105px);
+    left: calc(100% - 105px);
 }
 
 /* GamepadViewer transform wrappers sometimes add inline movement. Keep it smooth. */
