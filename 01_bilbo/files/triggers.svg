@@ -1,30 +1,11 @@
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 91" width="200" height="91">
 	<defs>
-		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,90.8,-99,0,101,0)">
-			<stop offset="0" stop-color="#ffffff"/>
-			<stop offset=".45" stop-color="#eeeeee"/>
-			<stop offset="1" stop-color="#d4d4d4"/>
-		</linearGradient>
-		<linearGradient id="g2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,12,-99,0,101,78.8)">
-			<stop offset="0" stop-color="#4a4a4a"/>
-			<stop offset="1" stop-color="#303030"/>
-		</linearGradient>
-		<linearGradient id="g3" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,90.8,-98.9,0,.1,0)">
-			<stop offset="0" stop-color="#ffffff"/>
-			<stop offset=".45" stop-color="#eeeeee"/>
-			<stop offset="1" stop-color="#d4d4d4"/>
-		</linearGradient>
-		<linearGradient id="g4" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,12,-99,0,0,78.8)">
-			<stop offset="0" stop-color="#4a4a4a"/>
-			<stop offset="1" stop-color="#303030"/>
-		</linearGradient>
+		<image  width="99" height="91" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGMAAABbCAMAAABQzMtnAAAAAXNSR0IB2cksfwAAAhZQTFRFR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHg+4DCwAAALJ0Uk5TABpTjr3S4fD/8d/OtmU3S57iq1ZOoPLoegNg2do9BWj+jTvc0ygLlfVkQa0PfeQ+p4sGwxYf2+Yw9k0N1PxIxfc8ArMsiA44o1UbqhLv1QEkn+cI+3eGCe5/aulPObWZdc2pDHhYwfRKeZui6sc6BN0pXZKWxhz6JmyvNqy41+00dBi0MW57j7eQy/1Hghe6KiVahz/Arp2MgIq767zz46SUdmdXTFx8v9GFaycdRF6BENEXNYsAAAPSSURBVHictdl5SBRRHMDx308xyTCzMi1CxWLLKDuNMv9QuzOxSLRC7TDT7NDC1tQyTS1tU8sOw6L7pAONSukg6KIo7DIrK8MOSCw7rDQhaXbd1XF3dmfezHvffxZmZ+Yzuzpv38wgkIW8muzwp6RtSAAHbr9Gm3fFrxSN3ih81A74mY7RFy0cb2/8oNxwxfpWS++74L/3Cg0P/CS2Sn98rcRQ4V+xL5zLHV/IN4a8sRIXtA3ASpnGsEYJH6ItFT6RY7j2fClV4HJxxApiY6jtcwKCy9rzIaHhjU/JCIDheI/IGFNl8aQQbiTeJTAmoNDnFs0bb0o2Rtnfl0MAjMMbEo0AvCOPAOjudU2aMfmWXALAyveKFGPqK8mnnkB+5RIMVX2T4HKp+ZeJGz2aFRGA/pfFDB/BIYGkiZdEjJl4VakB/WosG4NqFRMwBUstGbPKTZeRZ9NoyZhdZrqMvBl4zrwxxv0iDQOCzpg3Qi9QIWByg2E0MjHCsISOAbNPmjPmn6dEwJzj5oyxxL99Zgs5JmxEnDFZVXahR4SNBafpGRBwWchw9aH1F9c295CQEX6WIgHzDgoZi0/QNGBaiakR9VZgeqSg8P2mRvRRqgREFpsagdfpGt511SZGzGG6Bizca2zEHqJMwKIiYyPuAG0jarexsWI/bSN6p5Gxqpg2AQ51RsZI85eNsovZ0dlI2Evf0J7pPGN1EX0CPKo6GUuOMTDi8jsZowkvMCWlHbE6DJXzAwbG8jy+Qfenw5BdA99I3MXCWKnhGxQnJLys/vAMdSELAuJzeYbnOyYGDKzsMEaQ3H0hKCGnwwhSfu0k2Pgb7cak22wIaGltN5ILGBnOte1GSj4jg7tC0BvB5UQ3rAlye2UwUvMYEZCYZTCWHWRlcNM4vbFBw8pQb9IbAa1057m8kjL0RnoOKwKgWW9kbGFnpKS1GZnZ7Azfa21GH0nPfOTlUaUzsrLYEeBfpjOyMxkazrU6g/JVYOfSUnRGF4mPOGS1MVlroC1DAvx0w+1045vXVEtfpzVyN7I0Nqm1xtY0lkbsds6IGryBpYFNnLFtPUuCGxQ5Iy+VrbGZMwqS2Ro5nGHLarqgzwlhRxJbAkIQCtWMjZ5I9w6iUNx4NfAjY0ODYaXiaykrDHclsjYSUcqUJOnHvq3cS3whIu//HB+fym3hXn+fXbrC0ta7UeD23h7MdugRgV+cEIvdRl95Uy1+FFG9Kmoy8ZlXuH2cV4Rnt0f896zR0fCUbviaX2uDArHWPUR8lxIKC9WosbEJnKMzMHLmt67fNQU2wVT2LNh/j/TXOjLyJ1YAAAAASUVORK5CYII="/>
 	</defs>
 	<style>
-		.s0 { fill: url(#g1) } 
-		.s1 { fill: url(#g2) } 
+		.s0 { fill: #474747 } 
+		.s1 { fill: #2f2f2f } 
 		.s2 { fill: #ffffff } 
-		.s3 { fill: url(#g3) } 
-		.s4 { fill: url(#g4) } 
 	</style>
 	<g>
 		<g>
@@ -38,12 +19,12 @@
 	</g>
 	<g>
 		<g>
-			<path class="s3" d="m0.1 90.8c0 0 32.7-3.2 50.6-3.2 17.9 0 48.3 2.4 48.3 2.4 0 0-3.1-44.7-4.8-52-1.7-7.3-7.7-21.3-16.9-27.9-9.2-6.6-11.9-10.1-22.7-10.1-10.8 0-25.4 6.4-34.6 21.4-9.2 15-19.9 69.4-19.9 69.4z"/>
-			<path class="s4" d="m98.5 83.2c0 0-26.1-4.4-49-4.4-22.9 0-47.9 4.4-47.9 4.4-1 4.7-1.6 7.6-1.6 7.6 0 0 32.7-3.2 50.6-3.2 17.9 0 48.4 2.4 48.4 2.4 0 0-0.1-2.7-0.5-6.8z"/>
+			<use  href="#img1" x="0" y="0"/>
+			<path class="s1" d="m98.5 83.2c0 0-26.1-4.4-49-4.4-22.9 0-47.9 4.4-47.9 4.4-1 4.7-1.6 7.6-1.6 7.6 0 0 32.7-3.2 50.6-3.2 17.9 0 48.4 2.4 48.4 2.4 0 0-0.1-2.7-0.5-6.8z"/>
 		</g>
 		<g style="opacity: .24">
 			<path class="s2" d="m64.6 65.7l-3.2 2.6q-0.45 0.44-0.81 0.96-0.36 0.52-0.62 1.1-0.25 0.58-0.4 1.19-0.14 0.62-0.17 1.25h9.7v-2.6h-6.2q0.21-0.29 0.45-0.56 0.23-0.26 0.5-0.5 0.26-0.24 0.55-0.45 0.29-0.21 0.6-0.39 0.37-0.21 0.73-0.45 0.35-0.24 0.69-0.51 0.34-0.26 0.66-0.55 0.32-0.28 0.62-0.59 0.31-0.33 0.56-0.72 0.24-0.38 0.41-0.8 0.17-0.43 0.25-0.88 0.08-0.44 0.08-0.9 0.02-0.46-0.07-0.92-0.08-0.46-0.26-0.89-0.18-0.42-0.45-0.8-0.27-0.38-0.62-0.69-0.36-0.31-0.78-0.54-0.41-0.23-0.86-0.39-0.45-0.15-0.92-0.22-0.47-0.07-0.94-0.05c-3.1 0-4.7 1.7-4.7 5h2.7q0-2.7 2.1-2.7 0.42-0.04 0.82 0.1 0.4 0.15 0.7 0.46 0.29 0.31 0.42 0.71 0.12 0.41 0.06 0.83 0.02 0.44-0.08 0.86-0.1 0.43-0.31 0.82-0.21 0.38-0.52 0.69-0.31 0.31-0.69 0.53z"/>
-			<path fill-rule="evenodd" class="s2" d="m56.1 70.2h-7.1v-11.7h-3v14.3h10.1v-2.6z"/>
+			<path fill-rule="evenodd" class="s2" d="m56.1 70.2h-7.1v-11.7h-3v14.3h10.1z"/>
 		</g>
 	</g>
 </svg>
